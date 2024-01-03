@@ -1,0 +1,154 @@
+.banner-img {
+    margin-top: 60px;
+  }
+  
+  .home-page h1 {
+    color: gray;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .home-page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .home-page .card {
+    background-color: rgba(37, 198, 58, 0.097);
+    width: 18rem;
+  }
+  .home-page .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .home-page .card-price {
+    color: green;
+    font-weight: bold;
+  }
+  .home-page button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .home-page .card-text {
+    color: rgb(8, 7, 7);
+  }
+ 
+  .home-page .card:hover {
+    background-color: rgb(140, 241, 140);
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(5, 5, 5, 0.12), 0 4px 8px rgba(9, 9, 9, 0.06);
+    color: black;
+  }
+  
+  .home-page .card-img-top {
+    height: 300px !important;
+  }
+  /* ==================
+  filters
+  ============== */
+  .filters h4 {
+    margin-top: 100px;
+    color: gray !important;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+  }
+  
+  
+  
+  .ant-checkbox-wrapper {
+    margin-bottom: 5px !important;
+    margin-left: 30px; margin: 2px;
+  }
+  .ant-radio-wrapper {
+    margin-bottom: 5px !important;
+    margin-left: 10px;
+  }
+  
+  .filters button {
+    background-color: green;
+    width: 100%;
+    border: none;
+    border-radius: 100px;
+    margin-top: 20px;
+    color: black;
+
+  }
+  .filters button:hover{
+    background-color: black;
+    color: green;
+  }
+  
+  .loadmore {
+    color: green;
+    font-weight: bold;
+ 
+    font-size: 20px !important;
+  }
+  .loadmore:hover{
+    color: black;
+  }
+
+  .project-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .imageSet img{
+position: relative;
+  }
+  .imageSet h1{
+    position: absolute;
+    margin-top: -940px;
+    margin-left: 170px;
+    font-family: "Playfair Display", serif;
+
+  }
+
+  .imageSet h3{
+    position: absolute;
+    margin-top: -800px;
+    margin-left: 170px;
+    font-family: "Playfair Display", serif;
+
+  }
+
+  .imageSet h2{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 790px;
+    font-family: "Playfair Display", serif;
+
+  }
+
+  .imageSet h4{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 790px;
+    font-family: "Playfair Display", serif;
+
+  }
+  
+ 
+
+  
+.main-container.dark  .home-page .card-text{
+  color: var( --color-white);
+}
+
+.main-container.dark  .loadmore:hover{
+  color: var( --color-white);
+}
+
+ 
+.main-container.dark  .home-page .card-name-price{
+  color: var( --color-white);
+}
+.main-container.dark .home-page .card :hover{
+  color: var(--dark-blue-elements);
+}
+  
